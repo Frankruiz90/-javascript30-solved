@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+}
+.keys {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    height: 60px;
+    padding: 60px;
+}
+
+.key {
+    border: 2px solid black;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100px;
+    border-radius: 5px;
+    margin: 17px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.07s;
+    color: antiquewhite;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: chartreuse;
+    box-shadow: 0 0 15px chartreuse;
+}
+
+.sound{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+.text {
+    display: block;
+    font-size: 50px;
+}
